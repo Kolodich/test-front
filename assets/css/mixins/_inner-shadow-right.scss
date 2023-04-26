@@ -1,0 +1,12 @@
+@mixin inner-shadow-right($length, $color: var(--c-white)) {
+	&::after {
+		content: '';
+		position: absolute;
+		right: calc(#{$length} * -1);
+		top: 0;
+		width: $length;
+		height: 100%;
+		box-shadow: 0 0 $length $length white;
+		z-index: 1;
+	}
+}

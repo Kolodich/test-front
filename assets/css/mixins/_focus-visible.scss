@@ -1,0 +1,11 @@
+// @see https://bitsofco.de/when-is-focus-visible-visible/
+
+@mixin focus-visible {
+	&:focus-visible, :focus {
+		@content;
+	}
+
+	&:focus:not(:focus-visible) {
+		outline: none !important;
+	}
+}

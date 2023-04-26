@@ -1,0 +1,31 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@types/node": "^18",
+		"@yzfe/svgicon": "^1.1.0",
+		"@yzfe/vue3-svgicon": "^1.0.1",
+		"nuxt": "^3.4.2",
+		"nuxt-icon": "^0.3.3",
+		"nuxt-windicss": "^2.6.1",
+		"postcss": "^8.4.23",
+		"sass": "^1.62.0",
+		"sass-loader": "^10.4.1",
+		"vue-collapsed": "^1.1.2"
+	},
+	"dependencies": {
+		"array-move": "^4.0.0",
+		"lodash": "^4.17.21",
+		"nuxt-icons": "^3.2.1",
+		"vue": "^3.2.47",
+		"vuedraggable": "^4.1.0",
+		"vuex": "^4.0.2"
+	}
+}
