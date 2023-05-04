@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 	 * @see https://nuxtjs.org/docs/configuration-glossary/configuration-alias/
 	 */
 	css: [
+		'~/assets/fonts/FiraSans/stylesheet.css',
 		'~/assets/css/vendor.scss',
 		'~/assets/css/main.scss'
 	],
